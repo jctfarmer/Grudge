@@ -28,7 +28,7 @@ data Game     = Running | P1Win | P2Win deriving (Show, Eq, Generic)
 instance FromJSON Game
 instance ToJSON Game
 
-data Character = Giant | Luchador | Brawler | MatTechnician | Hero deriving (Show, Generic, Eq) 
+data Character = Giant | Luchador | Brawler | Technician | Hero deriving (Show, Generic, Eq) 
 instance FromJSON Character
 instance ToJSON Character
 
@@ -63,4 +63,4 @@ instance FromJSON Card
 instance ToJSON Card
 
 
-resolveStack :: GameState -> 
+-- resolveStack :: GameState -> 
