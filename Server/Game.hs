@@ -1,11 +1,21 @@
-{-# LANGUAGE OverloadedStrings, DeriveGeneric, DeriveDataTypeable, TypeFamilies #-}
+{-# LANGUAGE OverloadedStrings, DeriveGeneric, DeriveDataTypeable, TypeFamilies, TemplateHaskell #-}
 module Game where
 
-import System.IO
+import Control.Monad.Reader
+import Control.Monad.State
+import Data.Acid
+import Data.Maybe
+import Data.SafeCopy
+import Data.Typeable
+import Data.Either
+import qualified Data.Map.Strict as M
+import Network.Socket
 import GHC.Generics
 import Data.Aeson
 import Data.Aeson.Types
-import Data.Typeable
+import qualified Data.ByteString.Lazy.Char8 as C
+import System.IO
+import System.IO.Error
 
 data Action     = Play | Wait | Stack deriving (Show, Generic, Eq)
 instance FromJSON Action 
@@ -64,3 +74,32 @@ instance ToJSON Card
 
 
 -- resolveStack :: GameState -> 
+
+-- Initial Connection
+data ConnPlayer = ConnPlayer { username,pass :: String, queued :: Bool, char :: Maybe Character } deriving (Show, Generic, Eq)
+instance FromJSON ConnPlayer 
+instance ToJSON ConnPlayer
+
+newtype UserDB = UserDB { users :: M.Map String Player } deriving (Typeable)
+
+validatePlayer :: ConnPlayer -> Query UserDB (Maybe Player)
+validatePlayer (ConnPlayer n p _ _) = asks $ (\db -> 
+                                            case M.lookup n db of
+                                               Nothing -> Nothing
+                                               Just u  -> if pw u == p 
+                                                           then Just u
+                                                           else Nothing) . users 
+
+exists :: ConnPlayer -> Query UserDB Bool
+exists (ConnPlayer n _ _ _) = asks $ isNothing . (\db -> M.lookup n db) . users
+
+newPlayer :: ConnPlayer -> Update UserDB ()
+newPlayer (ConnPlayer n p _ _) = modify go
+        where
+        go (UserDB db) = UserDB $ M.insert n (Player n p 0 0) db
+
+deriveSafeCopy 0 'base ''UserDB
+deriveSafeCopy 0 'base ''Player
+deriveSafeCopy 0 'base ''ConnPlayer
+deriveSafeCopy 0 'base ''Character
+makeAcidic ''UserDB ['validatePlayer, 'newPlayer, 'exists]

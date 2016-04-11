@@ -1,4 +1,4 @@
-{-# LANGUAGE OverloadedStrings, DeriveGeneric, DeriveDataTypeable, TemplateHaskell, TypeFamilies #-}
+{-# LANGUAGE OverloadedStrings #-}
 module Server where
 
 import Game
@@ -7,7 +7,6 @@ import Data.Acid
 import Data.Maybe
 import Data.SafeCopy
 import Data.Typeable
-import Data.Either
 import qualified Data.Map.Strict as M
 import Control.Concurrent
 import Control.Concurrent.MVar
@@ -16,7 +15,6 @@ import Control.Monad
 import Control.Monad.State
 import Control.Monad.Reader
 import Control.Monad.Fix
-import Debug.Trace
 import Network.Socket
 import GHC.Generics
 import Data.Aeson
@@ -27,34 +25,6 @@ import System.IO.Error
 
 -- Connections manage game players and their socket handles
 type Connection = (ConnPlayer, Handle)
-
--- Initial Connection
-data ConnPlayer = ConnPlayer { username,pass :: String, queued :: Bool } deriving (Show, Generic, Eq)
-instance FromJSON ConnPlayer 
-instance ToJSON ConnPlayer
-
-newtype UserDB = UserDB { users :: M.Map String Player } deriving (Typeable)
-
-validatePlayer :: ConnPlayer -> Query UserDB (Maybe Player)
-validatePlayer (ConnPlayer n p _) = asks $ (\db -> 
-                                            case M.lookup n db of
-                                               Nothing -> Nothing
-                                               Just u  -> if pw u == p 
-                                                           then Just u
-                                                           else Nothing) . users 
-
-exists :: ConnPlayer -> Query UserDB Bool
-exists (ConnPlayer n _ _) = asks $ isNothing . (\db -> M.lookup n db) . users
-
-newPlayer :: ConnPlayer -> Update UserDB ()
-newPlayer (ConnPlayer n p _) = modify go
-        where
-        go (UserDB db) = UserDB $ M.insert n (Player n p 0 0) db
-
-deriveSafeCopy 0 'base ''UserDB
-deriveSafeCopy 0 'base ''Player
-deriveSafeCopy 0 'base ''ConnPlayer
-makeAcidic ''UserDB ['validatePlayer, 'newPlayer, 'exists]
 
 main :: IO ()
 main =  do
