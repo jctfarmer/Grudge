@@ -147,12 +147,20 @@ handleBrokenPipe h1 h2 =
 
 validateCard c (GameState p1 p2 s g t) = let eff   = getEffects $ theCards ! c
                                              stand = stance $ if t then p1 else p2
-                                         in (Counter `notElem` eff) 
+                                             inhand = c `elem` hand (if t then p1 else p2) 
+                                         in inhand && (Counter `notElem` eff) 
                                                 && ((MustBeDown `notElem` eff) || stand == Down)
 
 restAct = encode $ GameAction Rest Nothing 
 
-startStack (GameState p1 p2 _ g t) i = GameState p1 p2 [i] g t
+dropFirst a [] = []
+dropFirst a (x:xs) | x == a    = xs
+                   | otherwise = x : dropFirst a xs
+
+startStack g i = let t = p1turn g 
+                 in g { p1 = if t then (p1 g) { hand = dropFirst i . hand $ p1 g } else p1 g
+                      , p2 = if t then p2 g else (p2 g) { hand = dropFirst i . hand $ p2 g }
+                      , stack = [i] }
 
 doEffects won id (GameState p1 p2 s g t) = let (plyr,opp) = if t then (p1,p2) else (p2,p1)
                                                target = foldr runtEffect (if won then opp else plyr) effects
@@ -200,8 +208,8 @@ draw (GamePlayer p h ds     c he s) = GamePlayer p  h       ds c he s
 restPlayer (GameState p1 p2 s g t) | t         = GameState (incHealth p1) p2 s g t
                                    | otherwise = GameState p1 (incHealth p2) s g t
                                    where
-                                   incHealth gp@(GamePlayer p h d c he s) | he < 30    = GamePlayer p h d c (he+1) s
-                                                                          | otherwise = gp
+                                   incHealth p | health p < 30 = p { health = health p + 1}
+                                               | otherwise     = p
 
 synchGame h1 h2 (GameState p1 p2 s g t) = do let p1' = extract p1
                                                  p2' = extract p2
