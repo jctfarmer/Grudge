@@ -18,7 +18,7 @@ import System.IO
 import System.Random
 import System.IO.Error
 
-data Action     = Play | Rest | DrawCard deriving (Show, Generic, Eq)
+data Action     = Play | Rest | DrawCard | TapDown deriving (Show, Generic, Eq)
 instance FromJSON Action 
 instance ToJSON Action
 
@@ -211,7 +211,7 @@ nextTurn (GameState p1 p2 s r t) = GameState p1 p2 s r (not t)
 -- resolveStack :: GameState -> 
 
 -- Initial Connection
-data ConnPlayer = ConnPlayer { username,pass :: String, queued :: Bool, char :: Maybe Character } deriving (Show, Generic, Eq)
+data ConnPlayer = ConnPlayer { username,pass :: String, queued :: Bool, chara :: Maybe Character } deriving (Show, Generic, Eq)
 instance FromJSON ConnPlayer 
 instance ToJSON ConnPlayer
 

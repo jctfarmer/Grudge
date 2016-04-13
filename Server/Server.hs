@@ -13,6 +13,7 @@ import Control.Concurrent
 import Control.Concurrent.MVar
 import Control.Concurrent.Chan
 import Control.Monad
+import Control.Applicative
 import Control.Monad.State
 import Control.Monad.Reader
 import Control.Monad.Fix
@@ -51,7 +52,7 @@ pingConn hdl = fix $ \loop -> do
 
 playQueue :: [(VConnection,ThreadId)] -> MVar Connection -> AcidState UserDB -> IO ()
 playQueue cs mv db = do (c, hdl) <- takeMVar mv
-                        let chr = char c
+                        let chr = chara c
                         new <- query db (Exists c)
                         when new (putStrLn "New player..." >> update db (NewPlayer c))
                         p <- query db (ValidatePlayer c)
@@ -99,8 +100,6 @@ makeMatch (p1, h1, Just c1) (p2, h2, Just c2) db =
                                                 Right _ -> loop
             gthrd <- forkIO $ fix (\loop g -> 
                    case gstate g of
-                     P1Win -> undefined
-                     P2Win -> undefined
                      Running -> do synchGame h1 h2 g
                                    putStrLn $! if p1turn g then "Player 1 Turn" else "Player 2 Turn"
                                    let (turn, response) = if p1turn g then (p1in,p2in) else (p2in,p1in)
@@ -129,7 +128,11 @@ makeMatch (p1, h1, Just c1) (p2, h2, Just c2) db =
                                                                     else
                                                                      loop $! nextTurn g
                                            DrawCard -> loop $! nextTurn (drawCard g)
-                                           Rest     -> loop $! nextTurn (restPlayer g) ) game 
+                                           Rest     -> loop $! nextTurn (restPlayer g) 
+                                           _        -> putMVar error True 
+                     P1Win       -> putMVar error False 
+                     P2Win       -> putMVar error False ) game 
+                     
             end <- takeMVar error
             putStrLn "Game Ended"
             mapM_ killThread [gthrd, thr1, thr2]
