@@ -1,0 +1,560 @@
+fileFormatVersion: 2
+guid: ed4b812234d27854ea72530151744df0
+timeCreated: 1461128407
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cardAtlasLuchador_0
+    21300002: cardAtlasLuchador_1
+    21300004: cardAtlasLuchador_2
+    21300006: cardAtlasLuchador_3
+    21300008: cardAtlasLuchador_4
+    21300010: cardAtlasLuchador_5
+    21300012: cardAtlasLuchador_6
+    21300014: cardAtlasLuchador_7
+    21300016: cardAtlasLuchador_8
+    21300018: cardAtlasLuchador_9
+    21300020: cardAtlasLuchador_10
+    21300022: cardAtlasLuchador_11
+    21300024: cardAtlasLuchador_12
+    21300026: cardAtlasLuchador_13
+    21300028: cardAtlasLuchador_14
+    21300030: cardAtlasLuchador_15
+    21300032: cardAtlasLuchador_16
+    21300034: cardAtlasLuchador_17
+    21300036: cardAtlasLuchador_18
+    21300038: cardAtlasLuchador_19
+    21300040: cardAtlasLuchador_20
+    21300042: cardAtlasLuchador_21
+    21300044: cardAtlasLuchador_22
+    21300046: cardAtlasLuchador_23
+    21300048: cardAtlasLuchador_24
+    21300050: cardAtlasLuchador_25
+    21300052: cardAtlasLuchador_26
+    21300054: cardAtlasLuchador_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cardAtlasLuchador_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0.75}
+        - {x: 0, y: -292.25}
+        - {x: 192, y: -292.25}
+        - {x: 195, y: -289.25}
+        - {x: 195, y: -1.25}
+        - {x: 193, y: 0.75}
+    - name: cardAtlasLuchador_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 0.25}
+        - {x: 0, y: -2.75}
+        - {x: 0, y: -289.75}
+        - {x: 3, y: -292.75}
+        - {x: 195, y: -292.75}
+        - {x: 195, y: 0.25}
+    - name: cardAtlasLuchador_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0.25}
+        - {x: 5, y: -2.75}
+        - {x: 189, y: -2.75}
+        - {x: 191, y: -0.75}
+        - {x: 191, y: 0.25}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

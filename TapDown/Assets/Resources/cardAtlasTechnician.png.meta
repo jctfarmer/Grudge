@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: 17dbf670f17e33c439c917160c1080f0
+timeCreated: 1461128430
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cardAtlasTechnician_0
+    21300002: cardAtlasTechnician_1
+    21300004: cardAtlasTechnician_2
+    21300006: cardAtlasTechnician_3
+    21300008: cardAtlasTechnician_4
+    21300010: cardAtlasTechnician_5
+    21300012: cardAtlasTechnician_6
+    21300014: cardAtlasTechnician_7
+    21300016: cardAtlasTechnician_8
+    21300018: cardAtlasTechnician_9
+    21300020: cardAtlasTechnician_10
+    21300022: cardAtlasTechnician_11
+    21300024: cardAtlasTechnician_12
+    21300026: cardAtlasTechnician_13
+    21300028: cardAtlasTechnician_14
+    21300030: cardAtlasTechnician_15
+    21300032: cardAtlasTechnician_16
+    21300034: cardAtlasTechnician_17
+    21300036: cardAtlasTechnician_18
+    21300038: cardAtlasTechnician_19
+    21300040: cardAtlasTechnician_20
+    21300042: cardAtlasTechnician_21
+    21300044: cardAtlasTechnician_22
+    21300046: cardAtlasTechnician_23
+    21300048: cardAtlasTechnician_24
+    21300050: cardAtlasTechnician_25
+    21300052: cardAtlasTechnician_26
+    21300054: cardAtlasTechnician_27
+    21300056: cardAtlasTechnician_28
+    21300058: cardAtlasTechnician_29
+    21300060: cardAtlasTechnician_30
+    21300062: cardAtlasTechnician_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cardAtlasTechnician_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasTechnician_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2100
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 170, y: -255}
+        - {x: 172, y: -253}
+        - {x: 172, y: -2}
+    - name: cardAtlasTechnician_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2100
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasTechnician_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2100
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasTechnician_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasTechnician_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasTechnician_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasTechnician_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasTechnician_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasTechnician_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasTechnician_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasTechnician_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasTechnician_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasTechnician_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasTechnician_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasTechnician_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasTechnician_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasTechnician_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasTechnician_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasTechnician_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasTechnician_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasTechnician_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 170, y: -255}
+        - {x: 172, y: -253}
+        - {x: 172, y: -2}
+    - name: cardAtlasTechnician_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasTechnician_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasTechnician_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasTechnician_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasTechnician_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasTechnician_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasTechnician_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasTechnician_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasTechnician_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.16668701, y: -252}
+        - {x: 3.166687, y: -251}
+        - {x: 3.166687, y: -6}
+        - {x: 1.166687, y: -4}
+        - {x: 0.16668701, y: -4}
+    - name: cardAtlasTechnician_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+G:\Unity\TapDown\Temp\UnityVS_obj\Debug\TapDown.CSharp.csprojResolveAssemblyReference.cache
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\UnityEditor.dll
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\UnityEngine.dll
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\UnityEngine.xml
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+G:\Unity\TapDown\Temp\UnityVS_bin\Debug\UnityEditor.xml
+G:\Unity\TapDown\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+G:\Unity\TapDown\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb

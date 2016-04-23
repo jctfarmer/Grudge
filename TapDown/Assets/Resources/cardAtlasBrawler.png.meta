@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: 7867c5195d7964f4fb80d5523442447f
+timeCreated: 1461128339
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cardAtlasBrawler_0
+    21300002: cardAtlasBrawler_1
+    21300004: cardAtlasBrawler_2
+    21300006: cardAtlasBrawler_3
+    21300008: cardAtlasBrawler_4
+    21300010: cardAtlasBrawler_5
+    21300012: cardAtlasBrawler_6
+    21300014: cardAtlasBrawler_7
+    21300016: cardAtlasBrawler_8
+    21300018: cardAtlasBrawler_9
+    21300020: cardAtlasBrawler_10
+    21300022: cardAtlasBrawler_11
+    21300024: cardAtlasBrawler_12
+    21300026: cardAtlasBrawler_13
+    21300028: cardAtlasBrawler_14
+    21300030: cardAtlasBrawler_15
+    21300032: cardAtlasBrawler_16
+    21300034: cardAtlasBrawler_17
+    21300036: cardAtlasBrawler_18
+    21300038: cardAtlasBrawler_19
+    21300040: cardAtlasBrawler_20
+    21300042: cardAtlasBrawler_21
+    21300044: cardAtlasBrawler_22
+    21300046: cardAtlasBrawler_23
+    21300048: cardAtlasBrawler_24
+    21300050: cardAtlasBrawler_25
+    21300052: cardAtlasBrawler_26
+    21300054: cardAtlasBrawler_27
+    21300056: cardAtlasBrawler_28
+    21300058: cardAtlasBrawler_29
+    21300060: cardAtlasBrawler_30
+    21300062: cardAtlasBrawler_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cardAtlasBrawler_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasBrawler_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2100
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasBrawler_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2100
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasBrawler_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2100
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasBrawler_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasBrawler_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasBrawler_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasBrawler_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasBrawler_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasBrawler_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasBrawler_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasBrawler_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasBrawler_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasBrawler_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasBrawler_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasBrawler_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasBrawler_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasBrawler_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasBrawler_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasBrawler_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasBrawler_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasBrawler_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 170, y: -255}
+        - {x: 172, y: -253}
+        - {x: 172, y: -2}
+    - name: cardAtlasBrawler_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasBrawler_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasBrawler_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasBrawler_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasBrawler_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.166687, y: 0}
+        - {x: 0.16668701, y: -2}
+        - {x: 0.16668701, y: -253}
+        - {x: 2.166687, y: -255}
+        - {x: 2.166687, y: -256}
+        - {x: 169.16669, y: -256}
+        - {x: 171.16669, y: -254}
+        - {x: 171.16669, y: -2}
+        - {x: 169.16669, y: 0}
+    - name: cardAtlasBrawler_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.16668701, y: 0}
+        - {x: -0.16668701, y: -255}
+        - {x: 1.833313, y: -256}
+        - {x: 168.83331, y: -256}
+        - {x: 170.83331, y: -254}
+        - {x: 170.83331, y: -2}
+        - {x: 168.83331, y: 0}
+    - name: cardAtlasBrawler_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.8333359, y: 0}
+        - {x: -0.16666412, y: -2}
+        - {x: -0.16666412, y: -254}
+        - {x: 1.8333359, y: -256}
+        - {x: 169.83334, y: -256}
+        - {x: 170.83334, y: -254}
+        - {x: 170.83334, y: -2}
+        - {x: 168.83334, y: 0}
+    - name: cardAtlasBrawler_29
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 170, y: 0}
+        - {x: 3, y: 0}
+        - {x: 0, y: -3}
+        - {x: 0, y: -253}
+        - {x: 3, y: -256}
+        - {x: 170, y: -256}
+        - {x: 172, y: -254}
+        - {x: 172, y: -2}
+    - name: cardAtlasBrawler_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.16668701, y: -252}
+        - {x: 3.166687, y: -251}
+        - {x: 3.166687, y: -6}
+        - {x: 1.166687, y: -4}
+        - {x: 0.16668701, y: -4}
+    - name: cardAtlasBrawler_31
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

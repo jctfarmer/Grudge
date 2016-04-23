@@ -1,0 +1,10 @@
+lastUpgrade=00932
+proj.pluginVersion=0.9.32
+proj.AppId=977844756690
+and.BundleId=com.IrrationalJuice.TapDown
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSids
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3cstring+name%3d%22app_id%22%3e977844756690%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22package_name%22%3ecom.IrrationalJuice.TapDown%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_start_a_game%22%3eCgkI0sHb4LocEAIQAg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_view_your_stats%22%3eCgkI0sHb4LocEAIQAw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_view_the_tutorial%22%3eCgkI0sHb4LocEAIQBA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_won_a_game%22%3eCgkI0sHb4LocEAIQBQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_won_10_games%22%3eCgkI0sHb4LocEAIQBg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_tap_down_leaderboard%22%3eCgkI0sHb4LocEAIQBw%3c%2fstring%3e%0d%0a%3c%2fresources%3e%0d%0a
+and.ClientId=977844756690-vc5sa1n2ud8t9t76rhjs73de80bmuekf.apps.googleusercontent.com
+proj.requireGPlus=false
+android.SetupDone=true

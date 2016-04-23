@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: 780b2a101e80bcc43802bbecbdba5296
+timeCreated: 1461128369
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: cardAtlasGiant_0
+    21300002: cardAtlasGiant_1
+    21300004: cardAtlasGiant_2
+    21300006: cardAtlasGiant_3
+    21300008: cardAtlasGiant_4
+    21300010: cardAtlasGiant_5
+    21300012: cardAtlasGiant_6
+    21300014: cardAtlasGiant_7
+    21300016: cardAtlasGiant_8
+    21300018: cardAtlasGiant_9
+    21300020: cardAtlasGiant_10
+    21300022: cardAtlasGiant_11
+    21300024: cardAtlasGiant_12
+    21300026: cardAtlasGiant_13
+    21300028: cardAtlasGiant_14
+    21300030: cardAtlasGiant_15
+    21300032: cardAtlasGiant_16
+    21300034: cardAtlasGiant_17
+    21300036: cardAtlasGiant_18
+    21300038: cardAtlasGiant_19
+    21300040: cardAtlasGiant_20
+    21300042: cardAtlasGiant_21
+    21300044: cardAtlasGiant_22
+    21300046: cardAtlasGiant_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: cardAtlasGiant_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_22
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    - name: cardAtlasGiant_23
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 300
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 0}
+        - {x: 0, y: -4}
+        - {x: 0, y: -296}
+        - {x: 4, y: -300}
+        - {x: 200, y: -300}
+        - {x: 200, y: 0}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
