@@ -6,6 +6,7 @@
 {-# OPTIONS_GHC -fno-warn-unused-do-bind #-}
 module Game where
 
+import           Control.Lens
 import           Control.Monad.Reader
 import           Control.Monad.State
 import           Data.Acid
@@ -22,8 +23,8 @@ data Action     = Play | Rest | Stand | TapDown deriving (Show, Generic, Eq)
 instance FromJSON Action
 instance ToJSON Action
 
-data GameAction = GameAction { action :: Action
-                             , card   :: Maybe Int } deriving (Show, Generic)
+data GameAction = GameAction { _action :: Action
+                             , _card   :: Maybe Int } deriving (Show, Generic)
 instance FromJSON GameAction
 instance ToJSON GameAction
 
@@ -54,27 +55,27 @@ instance FromJSON Character
 instance ToJSON Character
 
 data Player = Player {
-                name,pw     :: String
-              , wins,losses :: Int } deriving (Show, Eq, Generic, Typeable)
+                _name,_pw     :: String
+              , _wins,_losses :: Int } deriving (Show, Eq, Generic, Typeable)
 instance FromJSON Player
 instance ToJSON Player
 
 data GamePlayer = GamePlayer {
-                player    :: Player
-              , hand      :: [Int]
-              , deck      :: [Int]
-              , character :: Character
-              , health    :: Int
-              , tapdown   :: Bool
-              , stance    :: Stance } deriving (Show, Eq, Generic)
+                _player    :: Player
+              , _hand      :: [Int]
+              , _deck      :: [Int]
+              , _character :: Character
+              , _health    :: Int
+              , _tapdown   :: Bool
+              , _stance    :: Stance } deriving (Show, Eq, Generic)
 instance FromJSON GamePlayer
 instance ToJSON GamePlayer
 
 data GameState = GameState {
-                p1, p2 :: GamePlayer
-              , stack  :: [Int]
-              , gstate :: Game
-              , p1turn :: Bool } deriving (Show, Eq, Generic)
+                _p1, _p2 :: GamePlayer
+              , _stack   :: [Int]
+              , _gstate  :: Game
+              , _p1turn  :: Bool } deriving (Show, Eq, Generic)
 instance FromJSON GameState
 instance ToJSON GameState
 
@@ -83,6 +84,12 @@ data Card = Card {
                  } deriving (Show, Eq, Generic)
 instance FromJSON Card
 instance ToJSON Card
+
+makeLenses ''Player
+makeLenses ''GameAction
+makeLenses ''GameState
+makeLenses ''GamePlayer
+makeLenses ''Character
 
 type Cards = Array Int Card
 
@@ -207,7 +214,7 @@ mkGamePlayer g p c = let (hand, deck) = splitAt 4 . take 50 $ (randomRs (0,106) 
                      in GamePlayer p hand deck c 25 False Up
 
 nextTurn :: GameState -> GameState
-nextTurn g = g { p1turn = not $ p1turn g }
+nextTurn = p1turn %~ not
 
 -- Initial Connection
 data ConnPlayer = ConnPlayer { username,pass :: String, queued :: Bool, chara :: Maybe Character } deriving (Show, Generic, Eq)
@@ -220,7 +227,7 @@ validatePlayer :: ConnPlayer -> Query UserDB (Maybe Player)
 validatePlayer (ConnPlayer n p _ _) = asks $ (\db ->
                                             case M.lookup n db of
                                                Nothing -> Nothing
-                                               Just u  -> if pw u == p
+                                               Just u  -> if u ^. pw == p
                                                            then Just u
                                                            else Nothing) . users
 
